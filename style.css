@@ -1,0 +1,66 @@
+body {
+  background-image: url("./pexels-fotios-photos-776538.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Noto Serif", serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header img {
+  cursor: pointer;
+}
+
+.hero__title {
+  font-size: 102px;
+  color: white;
+  margin: 100px 0 20px 180px;
+}
+
+.hero_text {
+  color: white;
+  font-size: 25px;
+  line-height: 138%;
+  margin-left: 180px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 11px 48px;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+@media (max-width: 480px) {
+  .hero__title {
+    font-size: 60px;
+    margin: 50px 0 20px 40px;
+  }
+
+  .hero_text {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+
+  .btn {
+    margin-top: 50px;
+  }
+}
